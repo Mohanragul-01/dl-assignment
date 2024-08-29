@@ -8,8 +8,6 @@ import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.utils import to_categorical
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 data_cleaned = pd.read_csv("Exasens_cleaned.csv")
 
